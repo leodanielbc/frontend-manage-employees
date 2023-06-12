@@ -2,6 +2,11 @@
 ## Description
 - CRUD with angular 14, using angular material and consuming serverlees lambda api.
 
+## Installation
+```bash
+npm install
+```
+
 ## Backend serverless
 Repository: [GitHub leodanielbc serverless](https://github.com/leodanielbc/serverless-javascript)
 
