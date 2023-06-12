@@ -3,7 +3,7 @@
   "version": 1,
   "newProjectRoot": "projects",
   "projects": {
-    "ang14-material-ui-crud": {
+    "frontend-manage-employees": {
       "projectType": "application",
       "schematics": {},
       "root": "",
@@ -13,7 +13,7 @@
         "build": {
           "builder": "@angular-devkit/build-angular:browser",
           "options": {
-            "outputPath": "dist/ang14-material-ui-crud",
+            "outputPath": "dist/frontend-manage-employees",
             "index": "src/index.html",
             "main": "src/main.ts",
             "polyfills": "src/polyfills.ts",
@@ -65,10 +65,10 @@
           "builder": "@angular-devkit/build-angular:dev-server",
           "configurations": {
             "production": {
-              "browserTarget": "ang14-material-ui-crud:build:production"
+              "browserTarget": "frontend-manage-employees:build:production"
             },
             "development": {
-              "browserTarget": "ang14-material-ui-crud:build:development"
+              "browserTarget": "frontend-manage-employees:build:development"
             }
           },
           "defaultConfiguration": "development"
@@ -76,7 +76,7 @@
         "extract-i18n": {
           "builder": "@angular-devkit/build-angular:extract-i18n",
           "options": {
-            "browserTarget": "ang14-material-ui-crud:build"
+            "browserTarget": "frontend-manage-employees:build"
           }
         },
         "test": {

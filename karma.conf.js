@@ -25,7 +25,7 @@ module.exports = function (config) {
       suppressAll: true // removes the duplicated traces
     },
     coverageReporter: {
-      dir: require('path').join(__dirname, './coverage/ang14-material-ui-crud'),
+      dir: require('path').join(__dirname, './coverage/frontend-manage-employees'),
       subdir: '.',
       reporters: [
         { type: 'html' },
