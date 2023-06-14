@@ -4,7 +4,8 @@
 
 ## Installation
 ```bash
-npm install
+$ npm install
+$ npm start
 ```
 
 ## Backend serverless
